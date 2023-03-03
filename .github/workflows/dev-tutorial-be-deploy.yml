@@ -11,7 +11,7 @@ on:
         default: "develop"
 
 env:
-  REPOSITORY: "thanawur/thanawur-tutorial-backend"
+  REPOSITORY: "thanawur/user16-tutorial-backend"
   GITREF: ${{ github.event_name == 'repository_dispatch' && 'develop' || github.event.inputs.ref }}
   ARTIFACT_NAME: "artifact-tutorial-be-0.0.1-snapshot"
   APP_RESOURCE_NAME: app-user16-az-usw3-dev-001
