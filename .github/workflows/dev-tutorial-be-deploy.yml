@@ -2,7 +2,7 @@ name: DEV - Tutorial BE Deploy
 
 on:
   repository_dispatch:
-    types: [thanawur-tutorial-be-cd-dev]
+    types: [user16-tutorial-be-cd-dev]
   workflow_dispatch:
     inputs:
       ref:
